@@ -1,5 +1,3 @@
-# Readme-generator I made real quick. Output turned out like the following with a few minor formatting edits.
-
 
     ===================================================
     Simple readme generator

@@ -63,7 +63,9 @@ function promptUser() {
 
 // function to write README file
 function generateReadme(answers) {
-    return `${answers.Title}
+    return `
+    ===================================================
+    ${answers.Title}
     +++++++++++++++++++++++++++++++++++++++++++++++++++
     ${answers.Description}
     
@@ -96,7 +98,8 @@ function generateReadme(answers) {
     ${answers.Questions}
     
     +++++++++++++++++++++++++++++++++++++++++++++++++++
-    ${answers.Badge}`;
+    ${answers.Badge}
+    ===================================================`;
 }
 
     //Question prompt function
